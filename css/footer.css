@@ -1,0 +1,35 @@
+/* footer top*/
+.container-footer h1{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #39E5AC;
+    font-weight: bold;
+}
+
+.inp{
+    background-color: #BFBFBF;
+    margin-bottom: 20px;
+}
+
+/* footer bottom*/
+.footer-bottom{
+    background-color: #BFBFBF;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#digitek{
+    width: 200px;
+}
+
+#face{
+    width: 40px;
+}
+
+#insta{
+    width: 40px;
+}

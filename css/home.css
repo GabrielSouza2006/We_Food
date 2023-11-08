@@ -17,7 +17,7 @@
     height: 100vh;
     padding: 0;
 }
-.row{
+#row{
     padding-top: 60px;
     width: 100vw;
 }
@@ -38,31 +38,6 @@ article{
     font-size: 25px;
     color: white;
 }
- 
-/* button */
-.btn-subscribe{
-    margin-top: 40px;
-    margin-left: 260px;
-
-    cursor: pointer;
-    background-color: #5CEBC0;
-    box-shadow: 2px 2px 2px 1px #31c694;
-    border: none;
-    padding: 20px;
-    padding-top: 14px;
-    padding-bottom  : 14px;
-    border-radius: 10px;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.btn-subscribe:hover{
-    background-color: #525152;
-    box-shadow: none;
-
-    transition: 0.5s;
-}
 
 /* NAV */
 .logo{
@@ -71,10 +46,10 @@ article{
 }
 
 nav{
-    background-color: #38E5AC;
+    background-image: linear-gradient( to right, #38E5AC, #38CECE);
     padding: 20px;
 }
 
 .nav{
-    background-color: #38E5AC;
+    background-image: linear-gradient( to right, #38E5AC, #38CECE);
 }

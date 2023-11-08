@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins2:wght@900&display=swap');
+
+/* background */
+.img-background2{
+    background-image: url(../imagens/bg-vantagens.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* container */
+.container-vantagens{
+    margin-left: 50px;
+}
+
+/* article */
+.article-1{
+    text-align: left;
+    margin-top: 50px;
+}
+
+.mother-row{
+    margin-top: 25px;
+}
+
+.article-1 h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.article-1 h2{
+    font-size: 30px;
+    font-family: 'Poppins2', sans-serif;
+}
+
+.article-1 h3{
+    font-size: 25px;
+    font-family: 'Poppins2', sans-serif;
+}
+
+.article-text{
+    text-align: left;
+    font-size: 10px;
+}
+
+.article-text h4{
+    color: #39E5AC;
+    font-family: 'Poppins2', sans-serif;
+    font-size: 12px;
+}
+
+#col{
+    display: inline-flex;
+}
+
+.icons{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}

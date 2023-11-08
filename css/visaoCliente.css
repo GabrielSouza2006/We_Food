@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins2:wght@900&display=swap');
+
+/* background */
+.img-background3{
+    background-image: url(../imagens/bg-visao-cliente.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* article */
+.article-2{
+    text-align: center;
+    margin: 0;
+    margin-top: 2em;
+}
+
+.article-2 h1{
+    font-size: 70px;
+}
