@@ -1,0 +1,44 @@
+/* background */
+.img-background4{
+    background-image: url(../imagens/bg-como-funciona.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* article */
+.article-text2 h4{
+    color: #39E5AC;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.article-text2 ul{
+    font-size: 13px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #39E5AC;
+}
+
+.article-text2 ul li span{
+    color: #525152;
+}
+
+.article-text2 li{
+    margin-bottom: 6px;
+}
+
+.h2-1{
+    font-size: 25px;
+    font-family: 'Poppins2', sans-serif;
+    font-weight: bold;
+}
+
+#p-3{
+    font-size: 13px;
+    color: #525152;
+}
+
+.container-1{
+    margin-right: 155px;
+}

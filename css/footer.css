@@ -1,7 +1,14 @@
+.container-footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* footer top*/
 .container-footer h1{
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
+    font-size: 50px;
 }
 
 h1{

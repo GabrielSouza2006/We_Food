@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/vantagens.css">
     <link rel="stylesheet" href="css/visaoCliente.css">
+    <link rel="stylesheet" href="css/precos.css">
+    <link rel="stylesheet" href="css/comoFunciona.css">
 
     <link rel="shortcut icon" href="imagens/weFav.ico" type="image/x-icon">
     <title>We:food</title>
@@ -20,6 +22,7 @@
 <body>
 
     <main>
+
         <section id="home">
             <!-- HOME -->
             <div class="container-fluid container-height img-background">
@@ -35,13 +38,13 @@
                             <p id="p-2">Tenha em seu restaurante a ementa digital <br> que garante a melhor
                                 experiência para os <br> seus clientes.</p>
                         </article>
-                        <button type="submit" class="btn-subscribe" id="s">INSCREVA-SE</button>
+                        <button type="submit" class="btn-subscribe">INSCREVA-SE</button>
                     </div>
                     <div class="col-1"></div>
                 </div>
             </div>
 
-
+            <!-- NAV BAR -->
             <div class="container-fluid" style="padding: 0;">
                 <nav>
                     <ul class="nav justify-content-center">
@@ -58,13 +61,13 @@
                             <a class="nav-link text-white font-weight-bold" href="#cliente">VISÃO DO CLIENTE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white font-weight-bold" href="#">COMO FUNCIONA</a>
+                            <a class="nav-link text-white font-weight-bold" href="#como-funciona">COMO FUNCIONA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white font-weight-bold" href="#">PREÇOS</a>
+                            <a class="nav-link text-white font-weight-bold" href="#precos">PREÇOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white font-weight-bold" href="#">CONTATO</a>
+                            <a class="nav-link text-white font-weight-bold" href="#contato">CONTATO</a>
                         </li>
                     </ul>
                 </nav>
@@ -93,7 +96,7 @@
                                         <div class="col" id="col">
                                             <img class="icons" src="imagens/getao-movel-icon.png" alt="Gestão móvel">
                                             <div>
-                                                <h4>GESTÃO MÓVEL</h4>
+                                                <h4 class="font-weight-bold">GESTÃO MÓVEL</h4>
                                                 <p>Otimização na utilização, pode ser usado em diferentes dispositivos
                                                     (Telemóvel, Tablet, computador). Gestão de mesas, atualização de
                                                     conteúdos e
@@ -106,7 +109,7 @@
                                                 <img class="icons" src="imagens/reducao-de-custos-de-operacao-icon.png"
                                                     alt="Redução de custo de operação">
                                                 <div>
-                                                    <h4>REDUÇÃO DE CUSTO DE OPERAÇÃO</h4>
+                                                    <h4 class="font-weight-bold">REDUÇÃO DE CUSTO DE OPERAÇÃO</h4>
                                                     <p>Através da aplicação, gere a ementa digital, as reservas, o
                                                         take-away, delivery e permite pagamentos Faz a personalização de
                                                         imagem promovendo a valorização do restaurante, seja pelas
@@ -125,7 +128,7 @@
                                                 <img class="icons" src="imagens/agilidade-no-atendimento-icon.png"
                                                     alt="Agilidade no atendimento">
                                                 <div>
-                                                    <h4>AGILIDADE NO ATENDIMENTO</h4>
+                                                    <h4 class="font-weight-bold">AGILIDADE NO ATENDIMENTO</h4>
                                                     <p>A aplicação está disponivel 24h por dia a gestoo do conteúdo é
                                                         feita pelo restaurante, o que permite a gestoo de acordo com as
                                                         necessidades. Pode ser atualizado sempre que o restaurante a
@@ -147,7 +150,7 @@
                                                     <img class="icons" src="imagens/opiniao-que-conta-icon.png"
                                                         alt="Opinião que conta">
                                                     <div>
-                                                        <h4>OPINIÃO QUE CONTA</h4>
+                                                        <h4 class="font-weight-bold">OPINIÃO QUE CONTA</h4>
                                                         <p>O uso continuo da aplicação vai mostrar quantos clientes
                                                             frequentaram o
                                                             seu
@@ -166,7 +169,7 @@
                                                             src="imagens/estamos-consigo-e-para-si-icon.png"
                                                             alt="Estamos consigo e para si">
                                                         <div>
-                                                            <h4>ESTAMOS CONSIGO E PARA SI</h4>
+                                                            <h4 class="font-weight-bold">ESTAMOS CONSIGO E PARA SI</h4>
                                                             <p>O we food tem a sua plataforma de gestão on- line
                                                                 disponivel 24h por dia. Poderá ter acompanhamento de
                                                                 perto, para suporte au dúvidas todos os dias.</p>
@@ -179,7 +182,7 @@
                                                             src="imagens/preserve-o-meio-ambiente-icon.png"
                                                             alt="Preserve o meio ambiente ">
                                                         <div>
-                                                            <h4>PRESERVE O MEIO AMBIENTE</h4>
+                                                            <h4 class="font-weight-bold">PRESERVE O MEIO AMBIENTE</h4>
                                                             <p>O atendimento digital é o futuro da restauração, assim o
                                                                 seu restaurante estara a acompanhar uma tendência
                                                                 mundial. E com isto irá economizar em papel</p>
@@ -210,9 +213,134 @@
                 </div>
             </div>
         </section>
+
+        <!-- COMO FUNCIONA -->
+        <section id="como-funciona">
+            <div class="container-fluid container-height img-background4">
+                <div class="row" id="row">
+                    <div class="col-6" style="margin-left: 40px;"></div>
+                    <div class="col-sm">
+                        <article class="article-text2">
+                            <h1>COMO FUNCIONA</h1>
+                            <h2 class="h2-1">Começar a usar é fácil, rápido e simples!</h2>
+                            <br>
+                            <div class="container-1">
+                                <h4>INÍCIO IMEDIATO</h4>
+                                <p id="p-3">Assista ao nosso video e comece a usar o We:food em minutos. <br>
+                                    Traga o seu restaurante para o nosso mundo digital e ofereça uma solução completa em
+                                    um
+                                    único app para os seus clientes!</p>
+                            </div>
+                        </article>
+                        <article class="article-text2">
+                            <button type="submit" class="btn-subscribe btn-subscribe-2">INSCREVA-SE</button>
+                            <div class="container-1">
+                                <h4>É CLIENTE?</h4>
+                                <p id="p-3" class="font-weight-bold">Com o We:food os seus restaurantes favoritos
+                                    estarão na palma de sua mão!</p>
+                                <ul>
+                                    <li><span>Faça reservas online;</span></li>
+                                    <li><span>Coloque o seu nome na fila de espera;</span></li>
+                                    <li><span>Realize pedidos através do seu próprio telemóvel;</span></li>
+                                    <li><span>Conheça as ementas, ofertas e preços antecipadamente;</span></li>
+                                    <li><span>Avalie o atendimento do restaurante.</span></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PREÇOS -->
+        <section id="precos">
+            <div class="container container-precos">
+                <div class="precos-top">
+                    <article class="article-precos">
+                        <h1>PREÇOS</h1>
+                        <h2 class="h2-1">Escolha a solução perfeita para o seu restaurante!</h2>
+                    </article>
+                </div>
+                <div class="precos-center">
+                    <div class="container text-center cards">
+                        <div class="container text-center cards2">
+                            <div class="row">
+                                <div class="col-md">
+                                </div>
+                                <div class="col-md">
+                                </div>
+                                <div class="col-md">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                            </div>
+                            
+                            <div class="container text-center cards2">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <article>
+                                            <h1>0 EUR</h1>
+                                        </article>
+                                    </div>
+                                    <div class="col-sm">
+                                        <article>
+                                            <h1 id="h1-preco">20 EUR/MÊS</h1>
+                                            <p id="p-3">Realize sua gestão de forma <br> profissional e eficiente </p>
+                                        </article>
+                                    </div>
+                                    <div class="col-sm">
+                                        <article>
+                                            <h1 id="h1-preco">45 EUR/MÊS</h1>
+                                            <p id="p-3">Realize sua gestão de forma <br> profissional e eficiente </p>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="precos-bottom">
+                    <article class="article-precos2">
+                        <h4>IMPULSIONE AS SUAS VENDAS. FIDELIZE OS SEUS CLIENTES! COMECE AGORA MESMO!</h4>
+                        <h2 class="h2-1">Inscreva-se e comece a usar todas as funcionalidades gratuitas.</h2>
+                        <h2 class="h2-1">Troque de plano a qualquer momento através da sua área de cliente e de acordo
+                            com suas necessidades.</h2>
+                        <button type="submit" class="btn-subscribe btn-subscribe-2">INSCREVA-SE</button>
+                    </article>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="container-fluid back-color" style="padding: 0;">
+                    <div class="display">
+                        <div id="email-1">
+                            <img src="imagens/mail-icon.png" alt="email" id="icon-email">
+                        </div>
+                        <div id="email-3">
+                            <h2>REGISTRAR-SE PARA RECEBER</h2>
+                            <h3>Preço e ofertas exclusivas!</h3>
+                        </div>
+                        <div id="email-2">
+                            <form>
+                                <input type="text" id="email">
+                                <button type="button" id="btn-email">REGISTRAR</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <!-- FOOTER -->
-    <footer>
+    <footer id="contato">
         <div class="footer-top">
 
             <div class="container-fluid container-footer">

@@ -14,17 +14,48 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
+
+    transition: 0.5s;
+}
+
+.btn-subscribe-2{
+    margin-left: 0px;
+    margin-top: 14px;
+    margin-bottom: 50px;
+
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom : 10px;
+    font-size: 18px;
 }
 
 .btn-subscribe:hover{
     background-color: #525152;
     box-shadow: none;
+}
+
+.display button{
+    cursor: pointer;
+    margin-left: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #429B86;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
 
     transition: 0.5s;
 }
 
+.display button:hover   {
+    background-color: #525152;
+    box-shadow: none;
+} 
 /* links nav */
 nav ul li a{
+    cursor: pointer;
     transition: 0.5s;
 }
 

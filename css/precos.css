@@ -1,0 +1,145 @@
+/* background */
+.back-color{
+    background-image: linear-gradient( to right, #3deeb3, #38CECE);
+}
+
+
+
+
+/* content */
+.container-precos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.article-precos{
+    margin: 0;
+    text-align: center;
+}
+
+.article-precos2{
+    margin: 0;
+    text-align: center;
+}
+
+.article-precos h1{
+    font-size: 50px;
+}
+
+.article-precos2 h2{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.article-precos2 h4{
+    color: #39E5AC;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+
+/* cards */
+.precos-center{
+    position: relative;
+}
+
+.cards .row{
+    padding-top: 6px;
+}
+
+.cards{
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.cards2{
+    position: absolute;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.cards .row .col{
+    height: 90vh;
+}
+
+.cards .row .col{
+    background-image: linear-gradient( to bottom, #4ED4C1, #4ED4C1);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+ 
+/* sm */
+.cards2 .row .col-sm{
+    height: 80vh;
+}
+
+.cards2 .row .col-sm{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border-radius: 30px;
+}
+
+/* md */
+.cards2 .row .col-md{
+    height: 82vh;
+}
+
+.cards2 .row .col-md{
+    background-image: linear-gradient( to bottom, #e4e4e4, #EBEBEB);
+    margin-left: 50px;
+    margin-right: 55px;
+    border-radius: 30px;
+}
+
+/* cards prices */
+.cards2 .row .col-sm article{
+    margin: 0;
+}
+
+.cards2 .row .col-sm h1{
+    color: #525152;
+    font-size: 25px;
+    margin-top: 40px;
+}
+#h1-preco{
+    margin-top: 25px;
+}
+
+
+/* bar */
+#icon-email{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.display{
+    padding: 50px;
+    padding-left: 270px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.display h2{
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.display h3{
+    font-size: 20px;
+}
+
+.display input{
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+}

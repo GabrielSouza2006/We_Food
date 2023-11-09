@@ -6,13 +6,13 @@
     background-image: url(../imagens/bg-visao-cliente.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 30px;
 }
 
 /* article */
 .article-2{
     text-align: center;
     margin: 0;
-    margin-top: 2em;
 }
 
 .article-2 h1{
