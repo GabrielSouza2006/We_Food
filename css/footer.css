@@ -1,21 +1,13 @@
+/* container  */
 .container-footer{
+    padding: 0;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: 0;
+    margin-left: 180px;
 }
 
 /* footer top*/
-.container-footer h1{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-    font-size: 50px;
-}
-
-h1{
-    color: #39E5AC;
-    font-weight: bold;
-}
-
 .inp{
     background-color: #BFBFBF;
     margin-bottom: 20px;

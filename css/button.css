@@ -36,17 +36,51 @@
 
 .display button{
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 10px;
     border: none;
     border-radius: 20px;
     background-color: #429B86;
     color: white;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-weight: bold;
+    font-size: 10px;
 
     transition: 0.5s;
+}
+
+/* button preco*/
+.btn-row{
+    margin-right: 143px;
+}
+
+.btn-register{
+    position: absolute;
+    margin-top: 590px;
+
+    cursor: pointer;
+    background-image: linear-gradient( to right, #38E5AC, #269D76);
+    border: none;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+    transition: 0.5s;
+}
+
+.btn-register2{
+    margin-top: 550px;
+}
+
+.btn-register:hover{
+    background-image: linear-gradient( to right, #3df7b9, #2ed19b);
 }
 
 .display button:hover   {

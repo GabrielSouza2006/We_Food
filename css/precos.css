@@ -3,45 +3,14 @@
     background-image: linear-gradient( to right, #3deeb3, #38CECE);
 }
 
-
-
-
 /* content */
 .container-precos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 50px;
+    margin-left: 180px;
 }
-
-.article-precos{
-    margin: 0;
-    text-align: center;
-}
-
-.article-precos2{
-    margin: 0;
-    text-align: center;
-}
-
-.article-precos h1{
-    font-size: 50px;
-}
-
-.article-precos2 h2{
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-
-.article-precos2 h4{
-    color: #39E5AC;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 25px;
-}
-
-
-
 
 /* cards */
 .precos-center{
@@ -63,7 +32,7 @@
 }
 
 .cards .row .col{
-    height: 90vh;
+    height: 117vh;
 }
 
 .cards .row .col{
@@ -75,7 +44,7 @@
  
 /* sm */
 .cards2 .row .col-sm{
-    height: 80vh;
+    height: 108vh;
 }
 
 .cards2 .row .col-sm{
@@ -88,58 +57,56 @@
 
 /* md */
 .cards2 .row .col-md{
-    height: 82vh;
+    height: 110vh;
 }
 
 .cards2 .row .col-md{
     background-image: linear-gradient( to bottom, #e4e4e4, #EBEBEB);
-    margin-left: 50px;
+    margin-left: 35px;
     margin-right: 55px;
     border-radius: 30px;
 }
 
-/* cards prices */
-.cards2 .row .col-sm article{
-    margin: 0;
+/* description */
+.ul-description{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 1px;
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: 110px;
 }
 
-.cards2 .row .col-sm h1{
-    color: #525152;
-    font-size: 25px;
-    margin-top: 40px;
-}
-#h1-preco{
-    margin-top: 25px;
+.ul-description-margin{
+    margin-top: 70px;
 }
 
+.ul-description li{
+    height: 35px;
+}
+
+.ul-description .row{
+    height: 20px;
+}
 
 /* bar */
 #icon-email{
-    width: 60px;
+    width: 50px;
     margin-right: 20px;
 }
 
 .display{
-    padding: 50px;
+    padding: 20px;
     padding-left: 270px;
     display: flex;
     align-items: center;
     color: white;
 }
 
-.display h2{
-    margin-right: 30px;
-    font-size: 25px;
-}
-
-.display h3{
-    font-size: 20px;
-}
-
 .display input{
     padding-left: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     border: none;
-    border-radius: 10px;
+    border-radius: 7px;
 }

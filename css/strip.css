@@ -1,0 +1,42 @@
+.strip {
+  position: absolute;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  right: -15px;
+  left: -15px;
+  background-image: linear-gradient(to right, #38E4AD, #38D1C9, #38BEE6);
+  color: white;
+}
+
+.strip2{
+  margin-top: 40px;
+}
+
+.strip::before, .strip::after {
+  position: absolute;
+  content: '';
+  bottom: 54px;
+  border-style: solid;
+  border-top-width: 5px;
+  border-left-width: 9px;
+  border-bottom-width: 5px;
+  border-right-width: 7px;
+  filter: brightness(80%);
+}
+
+.strip::after {
+  right: 0;
+  border-top-color: transparent;
+  border-left-color: #38E5AC;
+  border-bottom-color: #269D76;
+  border-right-color: transparent;
+}
+
+.strip::before {
+  left: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #269D76;
+  border-right-color: #38E5AC;  
+}
